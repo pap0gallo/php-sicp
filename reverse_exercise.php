@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Reverse;
+namespace App;
 
-require __DIR__ . '/vendor/autoload.php';
+require_once __DIR__ . '/vendor/autoload.php';
 
 use function Php\Pairs\Pairs\cons;
 use function Php\Pairs\Pairs\car;

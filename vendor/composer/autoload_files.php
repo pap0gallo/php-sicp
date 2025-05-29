@@ -7,4 +7,5 @@ $baseDir = dirname($vendorDir);
 
 return array(
     '4c8c3960ca5222b89a10afe2dd5b1358' => $vendorDir . '/hexlet/pairs/src/Pairs.php',
+    '2f0461002f666699bc1b3f83259368fa' => $baseDir . '/App/reverse.php',
 );

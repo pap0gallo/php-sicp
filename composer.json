@@ -1,5 +1,13 @@
 {
     "require": {
         "hexlet/pairs": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/"
+        },
+        "files": [
+            "App/reverse.php"
+        ]
     }
 }
