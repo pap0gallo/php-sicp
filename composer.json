@@ -1,2 +1,5 @@
 {
+    "require": {
+        "hexlet/pairs": "^1.1"
+    }
 }

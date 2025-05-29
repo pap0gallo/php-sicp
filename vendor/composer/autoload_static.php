@@ -6,6 +6,10 @@ namespace Composer\Autoload;
 
 class ComposerStaticInitd751713988987e9331980363e24189ce
 {
+    public static $files = array (
+        '4c8c3960ca5222b89a10afe2dd5b1358' => __DIR__ . '/..' . '/hexlet/pairs/src/Pairs.php',
+    );
+
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
     );
