@@ -1,6 +1,7 @@
 {
     "require": {
-        "hexlet/pairs": "^1.1"
+        "hexlet/pairs": "^1.1",
+        "hexlet-components/php-pairs-data": "dev-main"
     },
     "autoload": {
         "psr-4": {
@@ -9,5 +10,13 @@
         "files": [
             "App/reverse.php"
         ]
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/hexlet-components/php-pairs-data"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
